@@ -1,0 +1,94 @@
+
+.contenedor-app {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contenedor-formulario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .entrada-formulario {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+    transition: all 0.3s ease;
+    background-color: #fff8f2;
+  }
+  
+  .entrada-formulario:focus {
+    border-color: #e67e22;
+    background-color: #ffe3c2;
+    outline: none;
+  }
+  
+  .boton-envio {
+    padding: 8px 16px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-envio:hover {
+    background-color: #c0392b;
+  }
+  
+  .mensaje-error {
+    color: #e74c3c;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .grid-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .contenedor-tarjeta {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .contenedor-tarjeta:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .titulo-cancion {
+    margin: 0;
+    margin-bottom: 12px;
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
